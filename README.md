@@ -3,7 +3,8 @@
 ### Feature ###
 
 * Quick tool to measure FWHM from a camera realtime.
-* Click and measure FWHM on the image window
+* Click and measure FWHM on the image window.
+* Zoom feature around the clicked area.
 
 ### Setup ###
 
