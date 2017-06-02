@@ -1,4 +1,4 @@
-# camrt_fwhm #
+# Realtime FWHM reader #
 
 ### Feature ###
 
