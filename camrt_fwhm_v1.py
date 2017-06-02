@@ -3,10 +3,24 @@
 Created on Tue May 23 12:18:33 2017
 
 @author: Srukdee
+
+This program is implemented to control a camera connected to the computer in realtime.
+The current version is used with imaging source camera 5.6 um pixel size.
+It can do some easy tasks e.g. adjust exposure time, zoom, FWHM analysis.
+- Image window is the real image captured by the camera; 
+  this is where you click on the image and it can measure FWHM showing in Plot window
+- Plot window is used for calculating FWHM along the horizontal cut on the image
+- Zoom window shows the zoom image of the clicked region; adjust Z in the code if you need larger zoom
+
+Some important key
+- x = quit and destroy all window
+- z = increase exposure time by +0.05 s each time 
+- c = decrease exposure time by -0.05 s each time
+
 *****************************************************************************
 The MIT License
 
-Copyright (c) 2017 https://github.com/SurangkhanaRukdee
+Copyright (c) 2017 Surangkhana Rukdee https://github.com/SurangkhanaRukdee
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,18 +40,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ****************************************************************************
-This program is implemented to control a camera connected to the computer in realtime.
-The current version is used with imaging source camera 5.6 um pixel size.
-It can do some easy tasks e.g. adjust exposure time, zoom, FWHM analysis.
-- Image window is the real image captured by the camera; 
-  this is where you click on the image and it can measure FWHM showing in Plot window
-- Plot window is used for calculating FWHM along the horizontal cut on the image
-- Zoom window shows the zoom image of the clicked region; adjust Z in the code if you need larger zoom
-
-Some important key
-- x = quit and destroy all window
-- z = increase exposure time by +0.05 s each time 
-- c = decrease exposure time by -0.05 s each time
 
 """
 
